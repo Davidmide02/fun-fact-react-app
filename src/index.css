@@ -1,0 +1,85 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0rem 0rem 1rem 0rem;
+}
+
+header {
+  background-color: #21222A;
+  color: #61DAFB;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: 00D8FF;
+  /* background-color:61DAFB; */
+
+}
+
+.animate {
+  animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+
+}
+
+main {
+  padding: 4rem;
+  /* background-color: green; */
+  height: 90vh;
+  background-color: #282D35;
+  background-image: url(../src/assets/reactjs-icon\ 2.png);
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position-x: right;
+  font-size: 2rem;
+}
+
+main h3 {
+
+  font-size: 4rem;
+
+}
+
+/* ul {
+
+} */
+
+ul::marker {
+  color: green;
+  background-color: green;
+}
